@@ -53,7 +53,7 @@ def load_fotos(directory_src):
     return asarray(X), asarray(y)
 
 
-trainX, trainy = load_fotos(directory_src="C:\\Users\\gsaal\\OneDrive\\Documentos\\ReconhecimentoFacial\\faces\\train\\")
+trainX, trainy = load_fotos(directory_src="C:\\Users\\gsaal\\OneDrive\\Documentos\\ReconhecimentoFacial\\faces\\validation\\")
 
 model = load_model('facenet_keras.h5')
 
@@ -86,4 +86,4 @@ newTrainX.shape
 df = pd.DataFrame(data=newTrainX)
 df['target'] = trainy
 
-df.to_csv('facesTrain.csv')
+df.to_csv('facesValidation.csv')

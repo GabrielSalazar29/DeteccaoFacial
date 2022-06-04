@@ -4,7 +4,7 @@ from mtcnn.mtcnn import MTCNN
 from tensorflow.python.keras.models import load_model
 import cv2
 
-pessoa = ["Bia", "Gabriel"]
+pessoa = ["Bia", "Erlander", "Gabriel"]
 num_classes = len(pessoa)
 cap = cv2.VideoCapture(0)
 

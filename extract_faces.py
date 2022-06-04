@@ -68,5 +68,5 @@ def load_dir(directory_src, directory_target):
 
 if __name__ == '__main__':
     load_dir("C:\\Users\\gsaal\\OneDrive\\Documentos\\ReconhecimentoFacial\\fotos\\",
-             "C:\\Users\\gsaal\\OneDrive\\Documentos\\ReconhecimentoFacial\\faces\\"
+             "C:\\Users\\gsaal\\OneDrive\\Documentos\\ReconhecimentoFacial\\faces\\train\\"
              )
